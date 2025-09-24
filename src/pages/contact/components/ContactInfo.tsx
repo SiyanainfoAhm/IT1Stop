@@ -1,22 +1,5 @@
 
 export default function ContactInfo() {
-  const contactMethods = [
-    {
-      icon: 'ri-map-pin-line',
-      title: 'Visit Us',
-      details: '1225 W Beaver S St. Ste 205-1 #1079, Jacksonville, FL 32204',
-      description: 'Our main office location',
-      action: 'https://maps.google.com?q=1225+W+Beaver+S+St+Jacksonville+FL'
-    },
-    {
-      icon: 'ri-time-line',
-      title: 'Business Hours',
-      details: 'Monday - Friday: 9:00 AM - 6:00 PM EST',
-      description: "We're here to help during business hours",
-      action: null
-    }
-  ];
-
   const guarantees = [
     {
       icon: 'ri-shield-check-line',

@@ -107,7 +107,7 @@ export default function Services() {
               { step: '04', title: 'Testing', icon: 'ri-bug-line' },
               { step: '05', title: 'Deployment', icon: 'ri-rocket-line' },
               { step: '06', title: 'Support', icon: 'ri-customer-service-line' }
-            ].map((process, index) => (
+            ].map((process) => (
               <div key={process.step} className="text-center group">
                 <div className="relative mb-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-orange-500 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300">

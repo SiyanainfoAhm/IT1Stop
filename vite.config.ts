@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
-import { resolve } from 'node:path'
+import { resolve } from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
 
 const base = process.env.BASE_PATH || '/'
@@ -72,7 +72,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src')
+      '@': resolve(process.cwd(), './src')
     }
   },
   server: {
