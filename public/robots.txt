@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /projects
+Allow: /contact
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /security-statement
+Allow: /government-compliance
+
+Sitemap: https://example.com/sitemap.xml
